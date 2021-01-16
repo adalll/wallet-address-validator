@@ -16,6 +16,11 @@ var CURRENCIES = [{
     addressTypes: {prod: ['00', '05'], testnet: ['6f', 'c4']},
     validator: BTCValidator
 },{
+    name: 'emercoin',
+    symbol: 'emc',
+    addressTypes: {prod: ['21'], testnet: ['6f', 'c4']},
+    validator: BTCValidator
+},{
     name: 'litecoin',
     symbol: 'ltc',
     addressTypes: {prod: ['30', '05', '32'], testnet: ['6f', 'c4', '3a']},
